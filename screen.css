@@ -1,0 +1,196 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,500,700|Roboto+Slab:400,700);
+
+#container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+
+address {
+  font-family:'Rubik', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  color: #555555;
+  text-align: center;
+  position: relative;
+  bottom: 18px;
+}
+
+nav {
+  font-family:'Rubik', sans-serif;
+  font-weight: 700;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #959595;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+nav ul {
+  display: inline;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+h1 {
+  font-family:'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 55px;
+  text-align: center;
+  color: #33adcc;
+}
+
+h2 {
+  font-family:'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #33adcc;
+  position: relative;
+  bottom: 13px;
+}
+
+h3 {
+  font-family:'Rubik', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #555555;
+  position: relative;
+  bottom: 60px;
+}
+
+li {
+  font-family:'Rubik', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  color: #555555;
+}
+
+p.date {
+  font-family:'Rubik', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #555555;
+}
+
+.university {
+  font-family:'Rubik', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #555555;
+  position: relative;
+  bottom: 27px;
+}
+
+
+.education-date {
+  font-family:'Rubik', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #555555;
+  position: relative;
+  font-style: italic;
+  bottom: 35px;
+}
+
+.major {
+  font-family:'Rubik', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #555555;
+  position: relative;
+  bottom: 39px;
+}
+
+.work-move-up {
+  position: relative;
+  bottom: 45px;
+}
+
+.date {
+  font-size: 12px;
+  position: relative;
+  font-style: italic;
+  bottom: 67px;
+}
+
+.bring-up {
+  position: relative;
+  bottom: 70px;
+}
+
+.up {
+  position: relative;
+  bottom: 63px;
+}
+
+ul.higher{
+  position: relative;
+  bottom: 28px;
+}
+
+h2.move-up {
+  position: relative;
+  bottom: 50px;
+}
+
+h2.move-up-2 {
+  position: relative;
+  bottom: 80px;
+}
+
+.up2 {
+  position: relative;
+  bottom: 90px;
+}
+
+h2.move-up-3 {
+  position: relative;
+  bottom: 100px;
+}
+
+.up3 {
+  position: relative;
+  bottom: 115px;
+}
+
+.column-1 {
+  float: left;
+  margin-right: 90px;
+  width: 510px;
+
+}
+
+.column-2 {
+  float: left;
+  width: 300px;
+  padding-right: 20px;
+}
+
+a:link {
+  color: #e874aa; /*pink*/
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f43f8c; /*dark pink*/
+  text-decoration: none;
+}
+
+a:visited {
+  color: #2487c6; /*dark blue*/
+}
+
+a:hover,
+a:focus {
+  color: #f43f8c;
+  -o-transition:color 0.7s ease;
+  -moz-transition: color 0.7s ease;
+  -webkit-transition: color 0.7s ease;
+  transition: color 0.7s ease;
+}

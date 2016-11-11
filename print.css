@@ -1,0 +1,48 @@
+* {
+  color: black;
+  background: transparent;
+  font-size: 12pt;
+  font-family: serif;
+  font-style: normal;;
+}
+
+@page {
+  margin: 0.3in;
+}
+
+nav {
+  display: none;
+}
+
+h1 {
+  font-size: 25pt;
+}
+
+h2 {
+  font-size: 13pt;
+}
+
+h3 {
+  font-size: 10pt;
+
+}
+
+h1, h2, h3 {
+  line-height: 15pt;
+}
+
+p {
+  line-height: 1pt;
+}
+
+section {
+  display: block;
+  font-weight: normal;
+  font-style: normal;
+  margin-top: 0.05in;
+
+}
+
+a {
+  text-decoration: none;
+}
