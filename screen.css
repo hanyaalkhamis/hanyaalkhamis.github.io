@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,400i,500,500i,600,700,800,900');
+
+
+#container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+img {
+background: url(images/wall3.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%;
+height: auto;
+z-index:1;
+position: relative;
+}
+
+h1.mainpage {
+   text-align: center;
+   top: 250px;
+   width: 100%;
+   z-index: 10;
+   position: absolute;
+   font-family:'Raleway', sans-serif;
+   font-weight: 800;
+   font-size: 70px;
+   color: white;
+}
+
+p.main {
+  z-index: 10;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 40%;
+  font-family:'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: white;
+  text-align: center;
+}
+
+nav {
+  float: left;
+  text-align: right;
+  width: 100%;
+  z-index: 99;
+  position: absolute;
+  text-transform: uppercase;
+  top: 40px;
+  font-family:'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: white;
+}
+
+nav ul {
+  display: inline;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 5px;
+  padding-right: 25px;
+  z-index: 10;
+}
+
+
+#header {
+    background:url(images/wall2.jpg);
+    width:100%;
+    min-height:370px;
+}
+
+#header2 {
+    background:url(images/beach.jpg);
+    width:100%;
+    min-height:370px;
+}
+
+#header3 {
+    background:url(images/brickell.jpg);
+    width:100%;
+    min-height:370px;
+}
+
+#header4 {
+    background:url(images/design.jpg);
+    width:100%;
+    min-height:370px;
+}
+
+h1.therest {
+   text-align: center;
+   top: 150px;
+   width: 100%;
+   z-index: 10;
+   position: absolute;
+   font-family:'Raleway', sans-serif;
+   font-weight: 700;
+   font-size: 40px;
+   color: white;
+   text-transform: uppercase;
+
+}
+
+h2 {
+  padding-top: 20px;
+  font-family:'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: #15436e;
+  text-transform: uppercase;
+}
+
+.content {
+  font-family:'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #434343;
+  line-height: 15px;
+}
+
+ul {
+  padding: 0;
+}
+
+li.restaurantname {
+  font-family:'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #15436e;
+  list-style-type: none;
+  text-align: justify;
+}
+
+.maincontent {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery {
+  width: 440px;
+  position: relative;
+  float: right;
+  padding: 5px;
+  top: 30px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,.3);
+}
+
+.gallery > div {
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+
+.gallery > div > img {
+  display: block;
+  float: left;
+  width: 210px;
+  transition: .1s transform;
+  transform: translateZ(0); /* hack */
+}
+
+.gallery > div:hover {
+  z-index: 2;
+}
+
+.gallery > div:hover > img {
+  transform: scale(1.4,1.4);
+  transition: .4s transform;
+}
+
+
+.leftcolumn {
+  position: relative;
+  float: left;
+  width: 300px;
+}
+
+
+a:link {
+  color: #252525; /* dark grey*/
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f43f8c; /*dark pink*/
+  text-decoration: none;
+}
+
+a:visited {
+  color: #9f0044; /*really dark pink*/
+}
+
+a:hover,
+a:focus {
+  color: #f43f8c;
+  -o-transition:color 0.7s ease;
+  -moz-transition: color 0.7s ease;
+  -webkit-transition: color 0.7s ease;
+  transition: color 0.7s ease;
+}
+
+i {
+  padding-bottom: 15px;
+}
+
+p.comment {
+  font-family:'Raleway', sans-serif;
+  text-transform: lowercase;
+  font-weight: 400;
+  font-size: 12px;
+  color: #434343;
+}
